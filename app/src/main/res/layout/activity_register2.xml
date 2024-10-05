@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbkg"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/re"/>
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/re"
+        android:layout_marginTop="150dp"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/register_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register with Google" />
+
+        <Button
+            android:id="@+id/register_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register with Email" />
+
+        <Button
+            android:id="@+id/register_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Custom" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select your option to sinup\n TQ for choosing our app"
+        android:textSize="20dp"
+        android:layout_below="@id/li"
+        android:layout_marginTop="0dp"
+        android:textStyle="italic"/>
+
+
+
+</RelativeLayout>
